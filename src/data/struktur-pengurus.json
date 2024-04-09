@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nama": "Prof. H. Hermawan K. Dipojono, Ph.D",
+    "jabatan": "Ketua"
+  },
+  {
+    "id": 2,
+    "nama": "Dr. Ir. H. Syarif Hidayat",
+    "jabatan": "Wakil Ketua"
+  },
+  {
+    "id": 3,
+    "nama": "MA Rahman Kusuma, SE",
+    "jabatan": "Sekretaris 1"
+  },
+  {
+    "id": 4,
+    "nama": "Fathoni Kurniawan, Amd.",
+    "jabatan": "Sekretaris 2"
+  },
+  {
+    "id": 5,
+    "nama": "H. Yuliusman Kadar, Amd.",
+    "jabatan": "Bendahara 1"
+  },
+  {
+    "id": 6,
+    "nama": "H. Sunaryo, M.Pd.",
+    "jabatan": "Bendahara 2"
+  },
+  {
+    "id": 7,
+    "nama": "Masyhuri B., S.Ag.",
+    "jabatan": "Sie Imam dan Khotib 1"
+  },
+  {
+    "id": 8,
+    "nama": "H. Edy Yanto",
+    "jabatan": "Sie Imam dan Khotib 2"
+  },
+  {
+    "id": 9,
+    "nama": "H. Badruzzaman",
+    "jabatan": "Sie Tatib Jamaah 1"
+  },
+  {
+    "id": 10,
+    "nama": "Anwar Bustami",
+    "jabatan": "Sie Tatib Jamaah 2"
+  }
+]
