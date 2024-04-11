@@ -1,20 +1,20 @@
-import Donasi from "./pages/Donasi"
 import Beranda from "./pages/Beranda"
 import Profil from "./pages/Profil"
 import Kontak from "./pages/Kontak"
+import Donasi from "./pages/Donasi"
 
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <HashRouter >
+    <BrowserRouter basename={"/"}>
       <Routes>
         <Route path="/" element={<Beranda />}/>
         <Route path="profil" element={<Profil />}/>
         <Route path="kontak" element={<Kontak />}/>
         <Route path="donasi" element={<Donasi />}/>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
