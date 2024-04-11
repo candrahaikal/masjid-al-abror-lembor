@@ -3,18 +3,18 @@ import Profil from "./pages/Profil"
 import Kontak from "./pages/Kontak"
 import Donasi from "./pages/Donasi"
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <BrowserRouter >
+    <HashRouter >
       <Routes>
-        <Route path="/" index={<Beranda />}/>
+        <Route path="/" element={<Beranda />}/>
         <Route path="profil" element={<Profil />}/>
         <Route path="kontak" element={<Kontak />}/>
         <Route path="donasi" element={<Donasi />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
