@@ -60,7 +60,7 @@ const Donasi = () => {
               <InputForm label={"Bukti Transfer"} name={"file"} type={"file"} />
               <InputForm label={"Catatan"} name={"note"} type={"textarea"} />
 
-              <button type="submit" className="rounded-md bg-red-800 py-3 w-full md:w-4/5 mb-6 font-manrope me-auto text-sm text-md font-bold text-white">
+              <button type="submit" className="rounded-md bg-red-800 py-3 w-full `md:w-4/5 mb-6 font-manrope me-auto text-sm text-md font-bold text-white">
             Kirim
           </button>
             </form>
