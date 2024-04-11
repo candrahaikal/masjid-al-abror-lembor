@@ -1,7 +1,7 @@
+import Donasi from "./pages/Donasi"
 import Beranda from "./pages/Beranda"
 import Profil from "./pages/Profil"
 import Kontak from "./pages/Kontak"
-import Donasi from "./pages/Donasi"
 
 import { HashRouter, Routes, Route } from 'react-router-dom'
 

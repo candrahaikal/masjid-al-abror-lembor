@@ -5,7 +5,7 @@ import TextTitle from '../components/TextTitle'
 import TextDescription from '../components/TextDescription'
 import Contact from '../components/Contact'
 
-const kontak = () => {
+const Kontak = () => {
   return (
     <div>
       <Navbar />
@@ -23,4 +23,4 @@ const kontak = () => {
   )
 }
 
-export default kontak
+export default Kontak
