@@ -7,14 +7,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter >
       <Routes>
-        <Route path={"/"} element={<Beranda />}/>
+        <Route path={"/"} index element={<Beranda />}/>
         <Route path="profil" element={<Profil />}/>
         <Route path="kontak" element={<Kontak />}/>
         <Route path="donasi" element={<Donasi />}/>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter > 
   )
 }
 
